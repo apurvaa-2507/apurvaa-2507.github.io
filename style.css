@@ -1,0 +1,91 @@
+.alone{
+    font-size: 40px;
+    font-weight: lighter;
+    align-items: center;
+}
+
+.c{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font-size: 35px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    margin-bottom: 10px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Cascadia Code";
+    font-weight: lighter;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#popup {
+    position: absolute;
+    bottom: 40px;
+    font-weight: bold;
+    background-color: #222;
+    color: #fff;
+    padding: 15px 15px;
+    border-radius: 30px;
+}
+.hidden{
+    display: none;
+    bottom: -50px;
+    transform: translateY(50px);
+}
+
+.button-50 {
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: #000 8px 8px 0 0,#000 8px 8px 0 1px;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Cascadia Code";
+    font-size: 40px;
+    font-weight: lighter;
+    line-height: 20px;
+    margin: 0 5px 10px 0;
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.button-50:focus {
+    text-decoration: none;
+}
+.button-50:hover {
+    text-decoration: none;
+}
+.button-50:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+}
+.button-50:not([disabled]):active {
+    box-shadow: #000 2px 2px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+}
+@media (min-width: 768px) {
+    .button-50 {
+        padding: 40px 40px;
+    }
+}
